@@ -1,0 +1,17 @@
+# WB prompt-enhancement bundle.
+#
+# Every value below is a default; override any of them here and the change
+# survives an upgrade of the plugin package.
+#
+#   enabled    - false removes the enhance button and the tool without uninstalling
+#   mode       - workbuddy | creative
+#   timeoutMs  - hard per-request budget; the request is aborted when it expires
+#   tool       - false keeps the button but stops registering `enhance_prompt`
+- insert:
+    - id: wb-enhance-prompt
+      name: 'dsh-enhance-prompt'
+      config:
+        enabled: true
+        mode: workbuddy
+        timeoutMs: 30000
+        tool: true

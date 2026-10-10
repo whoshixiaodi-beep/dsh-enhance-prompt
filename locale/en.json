@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "WB Prompt Enhancement",
+    "description": "Adds an enhance button beside the composer: rewrites the draft into a more specific prompt with the session's own model, with undo and two enhancement modes."
+  }
+}
