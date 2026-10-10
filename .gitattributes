@@ -1,0 +1,15 @@
+# Normalize line endings: the repository stores LF, and every platform checks
+# out LF. These are plain-text JavaScript, YAML, JSON and Markdown sources that
+# the DSH loader and Node read identically either way; being explicit keeps the
+# published content byte-identical to the authored files.
+* text=auto eol=lf
+
+# Binary assets are never converted.
+*.svg text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.gz binary
