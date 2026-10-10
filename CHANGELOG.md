@@ -5,6 +5,22 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- Simplified Chinese documentation: `README.zh.md` is a full counterpart of
+  `README.md`, and both sides carry the standard `English | 中文` switcher and
+  the `description`/`kind` front matter used by DSH package docs.
+- `README.i18n.yaml`, the DSH bilingual-pair consistency record, holding one
+  entry per heading section.
+
+### Changed
+
+- Repository layout is now a table rather than a fenced block, so each side can
+  describe the files in its own language while keeping the pair's code blocks
+  byte-identical.
+
 ## [1.0.0] - 2026-10-11
 
 Initial public release.

@@ -1,4 +1,11 @@
+---
+description: "A DSH Web bundle that rewrites a composer draft into a clearer, more specific prompt with the session's own model selection, for users improving prompts in place before sending."
+kind: "package-bundle"
+---
+
 # dsh-enhance-prompt
+
+English | [中文](README.zh.md)
 
 A [DeepSeek Harness](https://github.com/deepseek-ai) (DSH) plugin that adds a
 **prompt enhance button** beside the composer. Write a rough draft, click ✨, and
@@ -123,15 +130,16 @@ into a visible failure instead of a control that looks stuck.
 
 ## Repository layout
 
-```
-index.js            Host half: the wbEnhancePrompt Remote service + enhance_prompt tool
-client.js           Browser half: composer control, status line, Remote mount
-prompts.js          Prompt templates for both modes
-cordis.patch.yml    Bundle patch: the profile row and its defaults
-icon.svg            Plugin icon
-locale/{en,zh}.json Locale strings
-.build/             One-off helper used to transcribe the prompt templates
-```
+| Path | Role |
+| --- | --- |
+| `index.js` | Host half: the `wbEnhancePrompt` Remote service and the `enhance_prompt` tool. |
+| `client.js` | Browser half: the composer control, the status line, and the Remote mount. |
+| `prompts.js` | The prompt templates for both modes. |
+| `cordis.patch.yml` | The bundle patch: the profile row and its defaults. |
+| `icon.svg` | The plugin icon. |
+| `locale/{en,zh}.json` | The locale strings. |
+| `.build/` | The one-off helper used to transcribe the prompt templates. |
+| `README.md` / `README.zh.md` | This documentation pair; `README.i18n.yaml` records its section hashes. |
 
 ## Credits
 

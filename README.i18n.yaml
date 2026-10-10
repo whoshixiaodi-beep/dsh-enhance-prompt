@@ -1,0 +1,40 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write README.md
+/:
+  en: a0a36be2b6e4582f
+  zh: 8724678d2d16a701
+/dsh-enhance-prompt:
+  en: 5aeaa94f2539ba18
+  zh: ac6e8e5372cfb516
+/dsh-enhance-prompt/features:
+  en: 7aa72ba0bc4a1989
+  zh: d3d230504647846d
+/dsh-enhance-prompt/installation:
+  en: b97e13ac3f11ec29
+  zh: 03a8fe606f4d2436
+/dsh-enhance-prompt/installation/from-the-plugins-page-recommended:
+  en: 3a40294060db1320
+  zh: bf987979debcfff9
+/dsh-enhance-prompt/installation/from-the-command-line:
+  en: 8f239a17317f5964
+  zh: f14b04e063ecfb3c
+/dsh-enhance-prompt/usage:
+  en: 9696fb18356eb3ef
+  zh: fbd16e723853cd6b
+/dsh-enhance-prompt/configuration:
+  en: 7f1a224b9426ce0e
+  zh: 27fb77386b0d4aeb
+/dsh-enhance-prompt/dependencies-and-compatibility:
+  en: 2f5686746b078229
+  zh: 652352ff79ba2200
+/dsh-enhance-prompt/repository-layout:
+  en: 4e93b631283622bf
+  zh: bf3e22247544b376
+/dsh-enhance-prompt/credits:
+  en: d5ea2a61a8673487
+  zh: 3e9275474d04ff39
+/dsh-enhance-prompt/license:
+  en: f0594beba7c0bfeb
+  zh: 09eff9ee479371ff
